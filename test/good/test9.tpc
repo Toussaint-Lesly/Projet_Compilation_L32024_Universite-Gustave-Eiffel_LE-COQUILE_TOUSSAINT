@@ -1,0 +1,96 @@
+int oh;
+int des;
+char variables;
+char globales;
+
+int polynom(int a, int b, int c){
+    int delta;
+    delta = sqrt(b * b - 4 * a * c);
+    return (-b + delta)/(2 * a);
+}
+
+int main(void){
+    int ceci;
+    char est;
+    int un;
+    int test;
+    int fonctionnel, example;
+    un = 1;
+
+    sayHelloWorld();
+
+    oh = 10 / un;
+    variables = 'a';
+    ceci = 2;
+
+    if(ceci == 1){
+        putInt(ceci);
+        est = 'o';
+        example = 0;
+        if(example == 1){
+            example = 0;
+        }
+        else{
+            example = 1;
+        }
+    }
+    else if(ceci){
+        putInt(ceci);
+        est = 'k';
+    }
+    else{
+        putInt(ceci);
+        est = 'n';
+    }
+
+    test = 0;
+    while(ceci < est){
+        test = test + 2;
+        ceci = ceci + 1;
+    }
+    no_param();
+    sqrt(9);
+    polynom(1, 2, 3);
+    fonctionnel = (test + ceci) * 2;
+
+    return 0;
+}
+
+int sqrt(int i){
+    int j;
+    j = 1;
+    while(j * j < i){
+        j = j + 1;
+    }
+
+    return j - 1;
+}
+
+int no_param(void){
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    a = 9;
+    b = 5;
+    c = -1;
+    d = 7;
+    e = a * b;
+    return (a * d) - (b * c);
+}
+
+void sayHelloWorld(void){
+    putChar('H');
+    putChar('e');
+    putChar('l');
+    putChar('l');
+    putChar('o');
+    putChar(' ');
+    putChar('W');
+    putChar('o');
+    putChar('r');
+    putChar('l');
+    putChar('d');
+    putChar('\n');
+}

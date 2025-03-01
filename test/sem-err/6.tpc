@@ -1,0 +1,8 @@
+int sqrt(int i){
+    return 1;
+}
+
+int main(void){
+    sqrt();
+    return 1;
+}

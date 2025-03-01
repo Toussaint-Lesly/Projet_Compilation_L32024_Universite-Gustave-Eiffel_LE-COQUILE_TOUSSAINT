@@ -1,0 +1,12 @@
+int h, c;char g;
+char v;
+
+void fct(int h){
+	int ch;
+	ch = 'g' + 1;
+	if (1);
+	g = 1;
+	g = ch - 5;
+	else
+	return;
+}

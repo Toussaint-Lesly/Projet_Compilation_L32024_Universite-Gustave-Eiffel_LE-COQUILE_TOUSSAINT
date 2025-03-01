@@ -1,0 +1,13 @@
+void fun(void){
+
+}
+
+int main(void){
+    int i[10];
+    int j;
+    i[0] = 10;
+    j = 10;
+    putInt(i == j);
+    return 1;
+}
+

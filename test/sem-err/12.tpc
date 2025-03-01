@@ -1,0 +1,10 @@
+void fun(void){
+
+}
+
+int main(void){
+    while(fun()){
+
+    }
+    return 1;
+}

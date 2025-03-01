@@ -1,0 +1,11 @@
+void fun(void){
+
+}
+
+void fun(int i){
+    
+}
+
+int main(void){
+    return getInt() * fun();
+}

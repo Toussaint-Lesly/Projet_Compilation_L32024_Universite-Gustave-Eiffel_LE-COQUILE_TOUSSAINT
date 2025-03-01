@@ -1,0 +1,10 @@
+
+int fun(int i[]){
+    return i[0];
+}
+
+int main(void){
+    fun(5);
+    return 1;
+}
+

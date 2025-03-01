@@ -1,0 +1,4 @@
+int h, c;char g;
+char v;
+
+void return(void){}

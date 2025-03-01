@@ -1,0 +1,36 @@
+int main(void){
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+    int g;
+
+    a = 1;
+    if(a == 1){
+        b = 2;
+        if(b == 1){
+            c = 3;
+        }
+        else if(b == 2){
+            c = 4;
+            if(c >= 1){
+                d = 6;
+            }
+        }
+        else{
+            c = 5;
+            if(c == 5){
+                d = 6;
+            }
+        }
+    }
+    else if(a == 2){
+        b = 3;
+    }
+    putInt(b);
+    putInt(c);
+    putInt(d);
+}
+

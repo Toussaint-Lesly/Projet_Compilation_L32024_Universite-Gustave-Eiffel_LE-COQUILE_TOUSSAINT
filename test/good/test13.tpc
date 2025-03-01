@@ -1,0 +1,52 @@
+int arr[50];
+char buffer[50];
+int bufsiz;
+
+void putString(char str[], int size){
+    int i;
+    i = 0;
+    while(str[i] != '\0' && i < size){
+        putChar(str[i]);
+        i = i + 1;
+    }
+}
+
+void putIntList(int arr[], int size){
+    int i;
+    i = 0;
+    putChar('[');
+    while(i < size){
+        putInt(arr[i]);
+        if(i < size - 1){
+            putChar(',');
+            putChar(' ');
+        }
+        i = i + 1;
+    }
+    putChar(']');
+}
+
+void printBuffer(void){
+    putString(buffer, bufsiz);
+    putChar('\n');
+}
+
+int main(void){
+    bufsiz = 6;
+    buffer[0] = 'H';
+    buffer[1] = 'e';
+    buffer[2] = 'l';
+    buffer[3] = 'l';
+    buffer[4] = 'o';
+    buffer[5] = arr;
+    
+    arr[0] = 1;
+    arr[1] = 2;
+    arr[2] = 3;
+    arr[3] = 4;
+    arr[4] = 5;
+    arr[5] = buffer;
+    putString(buffer, arr[10]);
+    putIntList(arr, 6);
+    return 0;
+}

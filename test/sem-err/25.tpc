@@ -1,0 +1,11 @@
+void fun(void){
+
+}
+
+int main(void){
+    int i;
+    int j;
+    j = i < fun();
+    return 1;
+}
+

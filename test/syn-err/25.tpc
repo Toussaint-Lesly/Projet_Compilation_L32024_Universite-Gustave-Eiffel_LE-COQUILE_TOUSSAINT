@@ -1,0 +1,9 @@
+int h, c;char g;
+char v;
+
+void fct(int h){
+	int ch;
+	ch = 'g' + 1;
+	else
+	return;
+}

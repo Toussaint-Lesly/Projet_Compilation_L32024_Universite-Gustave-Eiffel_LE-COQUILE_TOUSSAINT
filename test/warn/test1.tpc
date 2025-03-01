@@ -1,0 +1,15 @@
+
+
+int main(void) {
+    int a;
+    char b;
+    a = 5;
+    b = 'a';
+
+    b = a;
+
+    return 0;
+}
+
+
+

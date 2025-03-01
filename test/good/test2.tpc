@@ -1,0 +1,6 @@
+// Test de la résolution du conflit :
+/* Chaque if est associé au else qui le précède le plus proche */
+
+int conflit_Resolu(void) {
+    if (toto) if(tutu) {titi = 4;} else return genial;
+}

@@ -1,0 +1,28 @@
+/*
+  Ceci est un comentaire ### &&& ]@{^[ // Nous sommes toujours dans le commentaire
+
+ Et encore dans
+      le commentaire.       Ici aussi 12345
+*/
+
+int a, d, e, f; // Ligne de commentaire acceptée #~~
+int b;
+char ma_lettre;
+char ma_lettre_2;
+char mon_retour_a_la_ligne;
+char mon_apostrophe;
+
+int ma_fonction1 // Fonction numéro 1
+ (int un, int deux, int trois) {
+  int somme_totale;
+char quatre, cinq, six;
+	somme_totale = un + deux + trois;
+  return somme_totale;
+}
+
+char ma_fonction2 (int arbre) {
+}
+
+int ma_fonction3 (void) {
+  ;
+}

@@ -1,0 +1,35 @@
+void getString(char str[], int size){
+    int count;
+    char c;
+    count = 0;
+    c = getChar();
+    
+    while(c != '\n' && count < size){
+        str[count] = c;
+        count = count + 1;
+        c = getChar();
+    }
+    str[count] = '\0'; // Temporaire
+}
+
+void printString(char str[], int size){
+    int i;
+    char c;
+    i = 0;
+    c = '\n';
+    while(c != 0 && i < size){
+        putChar(c);
+        c = str[i];
+        i = i + 1;
+    }
+}
+
+int main(void){
+    char str[20];
+    int size;
+    size = 20;
+
+    getString(str, size);
+    printString(str, size);
+    return 0;
+}

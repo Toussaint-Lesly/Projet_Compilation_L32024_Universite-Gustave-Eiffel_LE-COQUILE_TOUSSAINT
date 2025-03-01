@@ -1,0 +1,10 @@
+char foo_2(void) {
+
+    return 1;
+}
+
+int main(void) {
+
+
+    return 0;
+}

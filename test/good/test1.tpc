@@ -1,0 +1,13 @@
+void fonction_Trop_C00L (char lettre) {
+  int b;
+  if (!a && b) {
+   b = a - 1;
+  }
+  else {
+   b = b + 2;
+  }
+  while (a || b + 10) {
+    a = a * (b - (a * 2)) / (12 % a);
+  }
+  return a;
+}

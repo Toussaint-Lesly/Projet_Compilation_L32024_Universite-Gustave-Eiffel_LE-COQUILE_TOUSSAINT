@@ -1,0 +1,19 @@
+char str[50];
+int arr[50];
+
+void funInt(int a[]){
+    a[0] = 5;
+}
+
+void funChar(char s[]){
+    s[0] = 'a';
+}
+
+int main(void){
+    arr[1] = 5;
+    if(arr[1] == 4){
+        return 0;
+    }
+    return 1;
+}
+

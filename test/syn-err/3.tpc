@@ -1,0 +1,8 @@
+int h, c;char g;
+char v;
+
+void fct(int h){
+	int ch = 12;
+	v == 5;
+	return;
+}

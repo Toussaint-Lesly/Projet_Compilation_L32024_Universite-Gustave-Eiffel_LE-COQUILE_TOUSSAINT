@@ -1,0 +1,14 @@
+/* Second test de résolution du conflit pour if if else */
+
+int fonction_if_if_else(void) {
+    if (tutu) {
+        toto = 1;
+    }
+    if (toutou) {
+        tata = 2;
+    }
+    else {
+        titi = 4;
+    }
+    return genial;
+}

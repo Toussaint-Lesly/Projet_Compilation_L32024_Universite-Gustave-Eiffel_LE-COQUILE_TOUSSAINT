@@ -1,0 +1,7 @@
+void fun(void){
+
+}
+
+int main(void){
+    return fun();
+}

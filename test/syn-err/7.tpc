@@ -1,0 +1,7 @@
+int h, c;char g;
+char v;
+
+void fct(void, int h){
+	int ch;
+	return;
+}

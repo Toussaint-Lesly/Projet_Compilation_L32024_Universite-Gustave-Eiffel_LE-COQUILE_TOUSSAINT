@@ -1,0 +1,9 @@
+char fun;
+
+void sqrt(int i){
+    i = fun();
+}
+
+int main(void){
+    return 1;
+}

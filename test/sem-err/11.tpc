@@ -1,0 +1,10 @@
+void fun(void){
+
+}
+
+int main(void){
+    if(fun()){
+
+    }
+    return 1;
+}

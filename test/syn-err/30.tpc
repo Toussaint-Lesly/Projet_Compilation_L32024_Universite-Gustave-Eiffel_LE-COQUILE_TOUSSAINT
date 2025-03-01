@@ -1,0 +1,4 @@
+int h
+char v;
+
+void fct(void){}
