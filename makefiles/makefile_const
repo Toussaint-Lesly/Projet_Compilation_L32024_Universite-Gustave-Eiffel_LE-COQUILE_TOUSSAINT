@@ -1,0 +1,12 @@
+CC=clang
+CFLAGS=-Wall -std=c17 -g -I./obj -I./include
+BISONFLAGS=-d --report=all
+EXEC=tpcc
+
+SRC=src
+OBJ=obj
+BIN=bin
+INCLUDE=include
+
+TREE_OBJS = ./$(OBJ)/tree.o ./$(OBJ)/tpcas.tab.o ./$(OBJ)/lex.yy.o
+COMP_OBJS = ./$(OBJ)/symbolTable.o ./$(OBJ)/functionTable.o ./$(OBJ)/progTable.o ./$(OBJ)/utilitaries.o ./$(OBJ)/writter.o ./$(OBJ)/defaultFunctionWritter.o

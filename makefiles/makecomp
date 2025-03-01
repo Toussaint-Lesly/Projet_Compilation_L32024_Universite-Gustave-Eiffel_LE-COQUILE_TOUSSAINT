@@ -1,0 +1,6 @@
+include ./makefiles/makefile_const
+
+all: $(COMP_OBJS)
+
+$(OBJ)/%.o: ./$(SRC)/%.c
+	$(CC) $(CFLAGS) -c $< -o $@

@@ -1,0 +1,20 @@
+include ./makefiles/makefile_const
+
+LEX_OUTPUT = ./$(OBJ)/lex.yy.c
+YACC_OUTPUT = ./$(OBJ)/tpcas.tab.c
+YACC_HEADER = ./$(OBJ)/tpcas.tab.h
+TREE_HEADER = ./$(INCLUDE)/tree.h
+
+all: $(TREE_OBJS)
+
+$(LEX_OUTPUT): ./$(SRC)/tpcas.lex $(YACC_HEADER) $(TREE_HEADER)
+	flex -o $@ $< 
+
+$(YACC_OUTPUT) $(YACC_HEADER): ./$(SRC)/tpcas.y $(TREE_HEADER)
+	bison $(BISONFLAGS) $< -o $(YACC_OUTPUT)
+
+$(OBJ)/tree.o: ./$(SRC)/tree.c
+	$(CC) $(CFLAGS) -o $@ -c $<
+
+$(OBJ)/%.o: ./$(OBJ)/%.c
+	$(CC) $(CFLAGS) -o $@ -c $<
